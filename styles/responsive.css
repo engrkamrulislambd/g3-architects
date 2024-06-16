@@ -35,6 +35,7 @@
     }
     .team-gallery{
         grid-template-columns: 1fr;
+        order: 2;
     }
     .team-content .quick-list{
         font-size: 42px;
@@ -97,7 +98,11 @@
     gap: 3rem;
    }
    .footer-text{
+<<<<<<< HEAD
     padding: 0 8PX;
+=======
+    padding: 0 8px;
+>>>>>>> 0b7b8cfd24dc5f9525cdcc1df7b610b492e3d761
    }
 
 }
