@@ -1,0 +1,256 @@
+/* Work Sans Fonts from Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  font-family: "Work Sans", sans-serif;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.text-justify{
+    text-align: justify;
+}
+.btn-primary{
+    padding: 20px 25px;
+    background-color: #FF900E;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 8px;
+    border: 0;
+    margin: 30px 0 50px 0;
+    cursor: pointer;
+}
+.text-light-gray{
+    font-size: 1rem;
+    color: #727272;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/*Header Styles*/
+
+header{
+    background-color: #FF900E1A;
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title,
+.team-title,
+.features-title,
+.sponsor-title
+{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+nav > ul{
+    display: flex;
+    gap: 26px;
+    align-items: center;
+}
+nav > ul li{
+    list-style: none;
+}
+nav > ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #424242;
+}
+.banner-section img{
+    width: 100%;
+}
+.banner-content{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 0 33px 0;
+}
+
+.banner-title{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    color: #131313;
+}
+
+/* Team Section Styles */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.team{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3.5rem;
+    padding: 4rem 0;
+}
+.team-gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.team-gallery img{
+    max-width: 342px;
+    border-radius: 8px;
+}
+.team-content{
+    padding-left: 3rem;
+    padding-right: 4rem;
+}
+.team-content .quick-list{
+    font-size: 45px;
+    font-weight: 500;
+    color: #727272;
+}
+.team-content .team-features{
+    font-size: 45px;
+    font-weight: 500;
+    color: #FF900E;
+}
+
+/* Features Styles*/
+
+.features{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 3.5rem 0;
+}
+.features-content{
+    margin-right: 50px;
+}
+.features-title{
+    margin-bottom: 24px;
+    border-left: 5px solid #FF900E;
+    padding-left: 26px;
+}
+
+ .card{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 20px 80px 20px 30px;
+    margin-bottom: 20px;
+}
+.card-title{
+    font-size: 20px;
+    color: #131313;
+}
+.features-image img{
+    height: 90%;
+    width: 100%;
+}
+.card-btn{
+    background-color: #FF900E;
+    max-width: 342px;
+    color: #ffffff;
+    text-align: center;
+    padding: 3rem 2rem;
+    border-radius: 8px;
+    position: relative;
+    bottom: 8%;
+    right: 10%;
+}
+.card-stats{
+    font-size: 65px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+.card-experience{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+/* Badge Styles */
+
+.facts{
+    margin: 3rem 0;
+}
+.facts-content{
+    padding-right: 50%;
+}
+.facts-title
+{
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.facts-badge-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5rem;
+    margin: 5rem 0;
+}
+.facts-badge{
+    width: 100%;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 45px 35px;
+    text-align: center;
+}
+.badge-states{
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0;
+}
+.badge-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    color: #727272;
+}
+
+/* Sponsor Section Styles */
+
+.sponsor{
+    margin: 3rem 0;
+}
+.sponsor-content{
+    max-width: 600px;
+    margin: 8rem auto 2rem auto;
+    text-align: center;
+}
+.sponsor-description{
+    margin-top: 0;
+}
+.sponsor-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    padding: 2rem 0;
+}
+
+/*Footer Section Styles*/
+
+footer{
+    background-color: #FFF4E7;
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem 0;
+
+}
+.footer-text{
+    font-size: 20px;
+    color: #424242;
+}
